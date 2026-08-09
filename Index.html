@@ -1,10 +1,399 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Rohan Das Kathabaniya - CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rohan Das Kathabaniya | CV</title>
+
+    <meta name="description"
+          content="CV of Rohan Das Kathabaniya">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #eef3f8;
+            color: #172033;
+        }
+
+        .page {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 45px;
+            box-shadow: 0 10px 35px rgba(0,0,0,0.12);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            border-bottom: 3px solid #2368c4;
+            padding-bottom: 25px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 38px;
+            color: #14253d;
+        }
+
+        .header h2 {
+            margin: 8px 0;
+            font-size: 17px;
+            font-weight: normal;
+            color: #2368c4;
+        }
+
+        .contact {
+            color: #5c6876;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .photo {
+            width: 130px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 3px solid #2368c4;
+        }
+
+        section {
+            margin-top: 25px;
+        }
+
+        section h2 {
+            font-size: 18px;
+            color: #2368c4;
+            border-bottom: 1px solid #d8e1eb;
+            padding-bottom: 7px;
+        }
+
+        p {
+            line-height: 1.7;
+            color: #465363;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px 30px;
+        }
+
+        .info div {
+            padding: 7px 0;
+        }
+
+        .education {
+            border-left: 3px solid #2368c4;
+            padding-left: 18px;
+        }
+
+        .education h3 {
+            margin-bottom: 4px;
+        }
+
+        .education p {
+            margin-top: 4px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills span {
+            padding: 9px 14px;
+            background: #eef4fb;
+            color: #2368c4;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        .contact-box {
+            background: #14253d;
+            color: white;
+            padding: 22px;
+            border-radius: 10px;
+        }
+
+        .contact-box p {
+            color: #dbe7f5;
+        }
+
+        .contact-box a {
+            color: #76b4ff;
+            text-decoration: none;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #7b8794;
+            font-size: 12px;
+        }
+
+        @media (max-width: 650px) {
+
+            .page {
+                margin: 0;
+                padding: 25px;
+            }
+
+            .header {
+                flex-direction: column-reverse;
+                align-items: flex-start;
+            }
+
+            .header h1 {
+                font-size: 30px;
+            }
+
+            .info {
+                grid-template-columns: 1fr;
+            }
+
+            .photo {
+                width: 110px;
+                height: 140px;
+            }
+        }
+
+        @media print {
+
+            body {
+                background: white;
+            }
+
+            .page {
+                margin: 0;
+                box-shadow: none;
+                max-width: none;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Rohan Das Kathabaniya</h1>
-    <p>Professional  CV</p>
+
+<div class="page">
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div>
+
+            <h1>Rohan Das Kathabaniya</h1>
+
+            <h2>
+                Data Entry & Digital Support
+            </h2>
+
+            <div class="contact">
+                📍 Haripur, Sarlahi, Nepal<br>
+                📞 +977 9769363530<br>
+                ✉ contact@rohandaskathabaniya.com.np<br>
+                🌐 rohandaskathabaniya.com.np
+            </div>
+
+        </div>
+
+        <!--
+        Rename your passport photo to:
+        photo.jpg
+
+        Then upload it into this same GitHub folder.
+        -->
+
+        <img
+            class="photo"
+            src="photo.jpg"
+            alt="Rohan Das Kathabaniya"
+        >
+
+    </header>
+
+
+    <!-- PROFILE -->
+
+    <section>
+
+        <h2>PROFILE</h2>
+
+        <p>
+            Motivated and detail-oriented student developing practical
+            skills in data entry, document preparation, MS Word, basic
+            Excel and computer fundamentals. Interested in building
+            professional digital-work experience and providing reliable
+            support to individuals and businesses.
+        </p>
+
+    </section>
+
+
+    <!-- PERSONAL INFORMATION -->
+
+    <section>
+
+        <h2>PERSONAL INFORMATION</h2>
+
+        <div class="info">
+
+            <div>
+                <strong>Date of Birth:</strong><br>
+                2083-12-11 B.S. / 2006-03-24 A.D.
+            </div>
+
+            <div>
+                <strong>Guardian:</strong><br>
+                Kabita Das (Elder Sister)
+            </div>
+
+            <div>
+                <strong>Permanent Address:</strong><br>
+                Haripur-02, Sarlahi, Nepal
+            </div>
+
+            <div>
+                <strong>Temporary Address:</strong><br>
+                Koteshwor-32, Kathmandu, Nepal
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+
+    <section>
+
+        <h2>EDUCATION</h2>
+
+        <div class="education">
+
+            <h3>Grade 12 — Science</h3>
+
+            <p>
+                GPA: 3.24<br>
+                Passed Year: 2083 B.S.
+            </p>
+
+        </div>
+
+        <div class="education">
+
+            <h3>Secondary Education Examination (SEE)</h3>
+
+            <p>
+                GPA: 3.25<br>
+                Passed Year: 2080 B.S.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section>
+
+        <h2>CORE SKILLS</h2>
+
+        <div class="skills">
+
+            <span>Data Entry</span>
+            <span>MS Word</span>
+            <span>Basic Excel</span>
+            <span>Computer Fundamentals</span>
+            <span>Document Formatting</span>
+            <span>PDF Handling</span>
+            <span>Typing</span>
+            <span>Basic HTML</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+
+    <section>
+
+        <h2>DIGITAL SERVICES</h2>
+
+        <p>
+            • Data entry and digital documentation<br>
+            • MS Word document formatting<br>
+            • Basic Excel and spreadsheet work<br>
+            • PDF document handling<br>
+            • Typing and document preparation<br>
+            • Basic website and HTML work
+        </p>
+
+    </section>
+
+
+    <!-- OBJECTIVE -->
+
+    <section>
+
+        <h2>CAREER OBJECTIVE</h2>
+
+        <p>
+            To gain practical experience in digital and administrative
+            work, deliver accurate results, and continuously improve
+            my technical and professional skills.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section>
+
+        <h2>CONTACT ME</h2>
+
+        <div class="contact-box">
+
+            <p>
+                Interested in working with me?
+            </p>
+
+            <p>
+                Email:
+                <a href="mailto:contact@rohandaskathabaniya.com.np">
+                    contact@rohandaskathabaniya.com.np
+                </a>
+            </p>
+
+            <p>
+                Phone: +977 9769363530
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        © 2026 Rohan Das Kathabaniya
+
+    </footer>
+
+</div>
+
 </body>
 </html>
